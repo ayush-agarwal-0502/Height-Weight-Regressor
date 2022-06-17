@@ -6,6 +6,9 @@ Using Linear Regression to predict weight when height is given , as well as sugg
 * Skills - Linear Regressor , Supervised Learning , Machine Learning , Data Science 
 * Tools - Google Colab Notebooks , Numpy , Pandas , MatplotLib , SeaBorn , SciKit-Learn 
 
+## Code :
+My code is availaible at : https://github.com/ayush-agarwal-0502/Height-Weight-Regressor/blob/main/height_weight_regressor_project.ipynb (in this repository itself) .
+
 ## Dataset : 
 The data was taken from Kaggle site : https://www.kaggle.com/datasets/mustafaali96/weight-height
 I have also uploaded a copy of this dataset on this repository just in case this dataset is removed : https://github.com/ayush-agarwal-0502/Height-Weight-Regressor/blob/main/weight-height.csv .
@@ -67,6 +70,26 @@ For those of you who don't know , BMI (Body Mass Index ) is a measure of wellnes
 
 ### Dataset Distribution :
 
+
+![image](https://user-images.githubusercontent.com/86561124/174357579-8d035b8d-86eb-4e41-837e-dad1acda9e7d.png)
+
+Here is the distribution for the heights and weights in the dataset :
+
+![image](https://user-images.githubusercontent.com/86561124/174357622-a7b57569-7e94-4213-ba4f-b7fb66600499.png)
+![image](https://user-images.githubusercontent.com/86561124/174357642-61ec4725-f5b4-4d1d-9514-bbd8d8b3b72c.png)
+
+How does this affect the result u ask ? Well , here is the data plotted against BMI graph :
+
+![image](https://user-images.githubusercontent.com/86561124/174358015-c892fd88-d1e8-4a38-a153-b430c122d2bc.png)
+
+![image](https://user-images.githubusercontent.com/86561124/174357888-9ffe9faa-b218-48d0-9060-3fdc84cee265.png)
+![image](https://user-images.githubusercontent.com/86561124/174357906-65d51f69-5ca8-4f59-b53b-cda2d5983726.png)
+
+The zones between the lines in the graph indicate the different BMI zones respectively ( below lowest line would be less than 18.5 BMI , between first and second line from bottom is between 18.5 to 25 zone and so on ) . 
+
+Since the actual data for females in the dataset is lying between 18.5 to 25 range , whereas for males the data is lying between 25 to 30 BMI range , hence the Regression Lines are also learnt close to those regions . 
+
+Hence the Machine Learning Model is bit biased to show the weights in males in Overweight Zone rather than normal zone , due to the Bias between male and female weigths in the given dataset/population . 
 
 
 

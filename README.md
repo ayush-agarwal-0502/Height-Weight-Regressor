@@ -9,6 +9,7 @@ Using Linear Regression to predict weight when height is given , as well as sugg
 ## Dataset : 
 The data was taken from Kaggle site : https://www.kaggle.com/datasets/mustafaali96/weight-height
 I have also uploaded a copy of this dataset on this repository just in case this dataset is removed : https://github.com/ayush-agarwal-0502/Height-Weight-Regressor/blob/main/weight-height.csv .
+Please also look at the BMI and dataset analysis at bottom :)  .
 
 ## Data Preprocessing and Visualisation :
 
@@ -37,6 +38,40 @@ No missing values in the dataset . Hence no need to use Imputers .
 ![image](https://user-images.githubusercontent.com/86561124/174355373-0d30e701-60c3-4667-af64-5643ddcdd842.png)
 
 Equal number of data samples for both male and female present , hence the dataset is well-balanced . No need to use Oversampling , Undersampling or SMOTE . 
+
+## Prediction and Analysis :
+
+![image](https://user-images.githubusercontent.com/86561124/174355824-d2780da2-f685-4530-9930-62bdebc66143.png)
+
+### The Result :
+
+![image](https://user-images.githubusercontent.com/86561124/174355912-3f90e509-b523-4ff7-a90a-a1fd0bc131b0.png)
+
+The RMSE Score is in the range of 4 to 5 indicating that our model performed well here . 
+
+### Successful TestRun :
+
+![image](https://user-images.githubusercontent.com/86561124/174356209-8d1dcf72-3fe9-42c1-9682-8443726f82f7.png)
+
+# But Wait , there is a catch :
+
+The model is biased to the population samples we trained it on , this is not a fault but rather inherent of any Machine Learning System . So , how is my model exactly biased ??
+
+### The BMI (Body Mass Index ) : 
+
+For those of you who don't know , BMI (Body Mass Index ) is a measure of wellness of a person based only on height and weight of a person . 18.5 to 25 is called as the optimal (healthy) region .
+
+![image](https://user-images.githubusercontent.com/86561124/174356997-6c257054-acef-46d7-92bd-45cf2c0edafe.png)
+
+![image](https://user-images.githubusercontent.com/86561124/174357182-13a1650c-c83a-4a04-8c7e-2d077ec20675.png)
+
+### Dataset Distribution :
+
+
+
+
+
+
 
 
 

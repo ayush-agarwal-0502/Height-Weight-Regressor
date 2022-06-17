@@ -89,7 +89,7 @@ The zones between the lines in the graph indicate the different BMI zones respec
 
 Since the actual data for females in the dataset is lying between 18.5 to 25 range , whereas for males the data is lying between 25 to 30 BMI range , hence the Regression Lines are also learnt close to those regions . 
 
-Hence the Machine Learning Model is bit biased to show the weights in males in Overweight Zone rather than normal zone , due to the Bias between male and female weigths in the given dataset/population . 
+__Hence the Machine Learning Model is bit biased to show the weights in males in Overweight Zone rather than normal zone , due to the Bias between male and female weigths in the given dataset/population__ . 
 
 
 
